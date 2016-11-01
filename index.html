@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Long Scrolly Template</title>
+    <link rel="stylesheet" href="css/long-scrolly.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Droid-Sans">
+    <link rel="stylesheet" href="css/fonts.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="main-menu">
+        <ul>
+            <li><a href="#ghibli">Studio Ghibli</a></li>
+            <li><a href="#second">Second</a></li>
+            <li><a href="#third">Colophon</a></li>
+        </ul>
+    </nav>
+
+    <!-- Top Section -->
+    <section id="ghibli">
+        <div class="container ghibli-container">
+
+            <h1 class="ghibli-header">STUDIO GHIBLI</h1>
+
+            <div class="content">
+                <div class="ghibli-top-row">
+                    <h2 class="ghibli-tagline">The world's leading animation company</h2>
+                    <div class="calcifer"><img class="totoro" src="images/calcifer.gif" alt="calcifer">
+                    </div>
+                </div>
+                <div class="ghibli-bottom-row">
+                    <div class="ghibli-description">Studio Ghibli, Inc. (株式会社スタジオジブリ) is a Japanese animation film studio based in Koganei, Tokyo, Japan. It was founded on June 15, 1985 after the success of Nausicaä of the Valley of the Wind (1984).</div>
+                    <div class="find-out-more">Find out more at <a href="https://en.wikipedia.org/wiki/Studio_Ghibli"><img class="wiki-icon" src="images/wikipedia_icon.png" alt="wikipedia"></a></div>
+                </div>
+
+            </div><!-- .content -->
+
+       </div><!-- .container -->
+
+    </section>
+
+    <!-- Second Section -->
+    <section id="second">
+        <div class="container">
+
+            <h1>Second Section</h1>
+
+            <div class="content">
+
+                
+
+            </div><!-- .content -->
+
+       </div><!-- .container -->
+
+    </section>
+
+    <!-- Third Section -->
+    <section id="colophon">
+        <div class="container">
+
+            <h1 class="colophon-header">Colophon</h1>
+
+            <div class="content colophon-content">
+                <!--Danny-->
+                <div class="card1">
+                    <div class="danny">
+                        <img src="images/propicS.png" alt="danny">
+                    </div>
+                    <div class="danny-description">
+                        <h3>Danny Diaz-Etchevehere</h3>
+                        <p>Danny designed section 1 of this website, this card, laid out section 3, and styled the menu. </p>
+                    </div>
+                </div>
+
+                <!--Jake-->
+                <div class="card2"></div>
+
+            </div><!-- .content -->
+
+       </div><!-- .container -->
+
+    </section>
+
+<!-- Use the following JavaScript code to do the smooth-scroll thing on the internal links -->
+<script src="http://code.jquery.com/jquery-2.2.4.min.js"></script>
+<script>
+// From:    Smooth Scrolling by CHRIS COYIER, updated JANUARY 31, 2016
+//          https://css-tricks.com/snippets/jquery/smooth-scrolling
+$(function() {
+  $('a[href*="#"]:not([href="#"])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html, body').animate({
+          scrollTop: target.offset().top
+        }, 250);
+        return false;
+      }
+    }
+  });
+});
+</script>
+
+</body>
+
+</html>

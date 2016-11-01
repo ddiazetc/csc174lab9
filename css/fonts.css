@@ -1,0 +1,39 @@
+.main-menu{
+    font-family: "Droid Sans", Helvetica, Arial;
+    font-size: 150%;
+    background-color: tomato;
+    color: white;
+}
+
+
+
+.ghibli-header{
+    font-family: "Droid Sans", Helvetica, Arial;
+    font-size: 300%;
+    font-weight: 900;
+    color: white;
+}
+
+.ghibli-tagline{
+    font-family: "Droid Sans", Helvetica, Arial;
+    font-size: 150%;
+    color: white;
+}
+
+.ghibli-top-row, .ghibli-bottom-row{
+    font-family: "Droid Sans", Helvetica, Arial;
+    font-size: 110%;
+    color: white;
+
+}
+
+.colophon-header{
+    font-family: "Droid Sans", Helvetica, Arial;
+    color: tomato;
+}
+
+.colophon-content{
+    font-family: "Droid Sans", Helvetica, Arial;
+    font-size: 110%;
+    color: royalblue;
+}

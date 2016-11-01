@@ -1,0 +1,124 @@
+/*	****************************************
+	Demo styles (for demo purposes only)
+	**************************************** */
+p { margin-top: 0; }
+
+.right {
+	float: right;
+	margin-left: 15px;
+}
+
+.frame {
+	border: 1px solid #666;
+	padding: 5px;
+}
+
+/*	****************************************
+	Modules (reusable classes)
+	**************************************** */
+.container {
+	height: 100%;
+	margin: 0 auto;
+	width: 95%;
+	max-width: 960px;
+	/*border-style: solid;*/
+}
+
+.content {
+	text-align: left;
+	overflow: auto;
+}
+
+/**********section 1 by Danny**************/
+
+.ghibli-container{
+	/*background-color: rgba(255,255,255 0.3);*/
+
+}
+
+.ghibli-header{
+	text-align: left;
+	margin: 0 0 0 0px;
+}
+
+#ghibli{
+	background-image: url("../images/laputa.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+
+}
+
+.ghibli-top-row{
+	display: flex;
+	align-items: center;
+}
+
+.ghibli-bottom-row{
+	display: flex;
+}
+
+.ghibli-tagline{
+	flex: 0 1 60%;
+	text-align: center;
+	vertical-align: 50px;
+	margin: 0;
+	padding: 15px;
+
+}
+
+.calcifer{
+	margin: 0 auto;
+	padding: 15px;
+}
+
+.ghibli-description{
+	flex:0 1 60%;
+	margin: 0;
+	padding: 15px;
+	background-color: royalblue;
+}
+
+.find-out-more{
+
+	flex-grow: 1;
+	text-align: center;
+	/*align-self: center;*/
+	margin: 0 auto;
+	background-color: aquamarine;
+}
+
+.wiki-icon{
+	max-width: 50px;
+}
+
+img.calcifer{
+	display: block;
+	max-width: 200px;
+	width: 100%;
+	height: auto;
+}
+
+/**********section 3 **************/
+.colophon-content{
+	display: flex;
+}
+
+.card1{
+	flex: 0 1 50%;
+	display: flex;
+	align-items: center;
+	border-style: solid;
+	border-width: 1px;
+	margin: 15px;
+}
+
+.danny-description{
+	padding: 15px;
+}
+.danny{
+	margin: 0 auto;
+	padding: 15px;
+}
+
+
+
