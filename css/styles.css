@@ -98,6 +98,21 @@ img.calcifer{
 	height: auto;
 }
 
+/**********section 2 **************/
+#second{
+	background-image: url("../images/windrises.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.second-header{
+	color: red;
+}
+
+.secondparagraphs{
+	text-align: left;
+}
+
 /**********section 3 **************/
 .colophon-content{
 	display: flex;
@@ -119,6 +134,20 @@ img.calcifer{
 	margin: 0 auto;
 	padding: 15px;
 }
-
+.card2{
+	flex: 0 1 50%;
+	display: flex;
+	align-items: center;
+	border-style: solid;
+	border-width: 1px;
+	margin: 15px;
+}
+.jake-description{
+	padding: 15px;
+}
+.jake{
+	margin: 0 auto;
+	padding: 15px;
+}
 
 

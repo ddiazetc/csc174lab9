@@ -27,6 +27,13 @@
 
 }
 
+.second-header{
+    font-family: "Droid Sans", Helvetica, Arial;
+    font-size: 300%;
+    font-weight: 600;
+    color: #ce5278; 
+
+}
 .colophon-header{
     font-family: "Droid Sans", Helvetica, Arial;
     color: tomato;
