@@ -34,6 +34,18 @@
     color: #ce5278; 
 
 }
+.second-paragraphs{
+    font-family: "Droid Sans", Helvetica, Arial;
+    font-size: 110%;
+    color: #eff5f5;
+}
+.fonttest{
+    font-size:175%;
+    color: #ce5278;
+    padding-bottom: 10px;
+    text-align: left; 
+
+}
 .colophon-header{
     font-family: "Droid Sans", Helvetica, Arial;
     color: tomato;

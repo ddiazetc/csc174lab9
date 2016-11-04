@@ -100,20 +100,57 @@ img.calcifer{
 
 /**********section 2 **************/
 #second{
-	background-image: url("../images/windrises.jpg");
+	background-image: url("../images/clouds.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 }
 
-.second-header{
-	color: red;
-}
 
-.secondparagraphs{
+.second-paragraphs{
+	text-align: left;
+
+}
+.group1{
+	flex:0 1 60%;
+	margin: 0;
+	padding: 15px;
+	padding-right:40px;
 	text-align: left;
 }
 
-/**********section 3 **************/
+.group2{
+	flex:0 1 60%;
+	margin: 0;
+	padding: 15px;
+}
+.group3{
+	flex:0 1 60%;
+	margin: 0;
+	padding: 15px;
+}
+
+.logo{
+	max-height:200px;
+    float:right;
+    padding:15px;
+    border-radius:40px;  
+}
+
+.totoro{
+	float:right;
+	padding:15px;
+	max-height: 200px;
+	    border-radius:40px;  
+}
+
+.ponyo{
+	float:right;
+	padding:15px;
+	max-height: 150px;
+    border-radius:40px;  
+}
+
+/**********section 3 by Jake**************/
 .colophon-content{
 	display: flex;
 }
